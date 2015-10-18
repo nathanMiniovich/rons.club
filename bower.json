@@ -1,0 +1,18 @@
+{
+  "name": "RonsWebsite",
+  "homepage": "https://github.com/nathanMiniovich/rons.club",
+  "authors": [
+    "Nathan Miniovich <nathan.miniovich@rutgers.edu>"
+  ],
+  "description": "Rutgers Organization of Nippons Students Website",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

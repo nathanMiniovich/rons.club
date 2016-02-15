@@ -1,1 +1,194 @@
-edit
+/* Globals */
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: #F7EFE2; /* white */
+  color: #050403; /* black */
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #118BF3; /* blue */
+  margin: 0;
+  padding: 0;
+}
+a:hover,
+a:active {
+  color: #052642; /* dark blue */
+}
+p {
+  font-family: 'Lato', sans-serif;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 0;
+  margin-top: 20vh;
+  margin-left: 10vw;
+  padding-bottom: 0px;
+  color: #F7EFE2; /* white */
+  font-size: 80px;
+  line-height: 0px;
+}
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 0;
+  margin-left: 10vw;
+  color: #F7EFE2; /* white */
+  font-size: 32px;
+  line-height: 32px;
+}
+input[type="text"] {
+  font-family: 'Roboto Condensed', sans-serif;
+  display: block;
+  margin: 10vh 0vw 0 0vw;
+  width: 70vw;
+  float: left;
+  font-size: 48px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0px;
+  padding: 6px;
+}
+input[type="submit"] {
+  font-family: 'Roboto Condensed', sans-serif;
+  display: block;
+  margin: 10vh 0 0 0;
+  width: 10vw;
+  float: left;
+  font-size: 48px;
+  appearance: none;
+  box-shadow: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding: 6px;
+}
+textarea {
+  font-family: 'Roboto Condensed', sans-serif;
+  display: block;
+  margin: 5vh 5vw 0 5vw;
+  width: 90vw;
+  height: 50vh;
+  float: left;
+  font-size: 32px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 6px;
+  padding: 6px;
+}
+select {
+    padding: 6px;
+    font-size: 48px;
+    margin: 10vh 0 0 5vw;
+    float: left;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background-color: #F7EFE2; /* white */
+    color: #050403; /* black */
+    border: none;
+    outline: none;
+    width: 10vw;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* Locals */
+a.logo {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px;
+  line-height: 41px;
+  color: #050403; /* black */
+  height: 45px;
+  width: 10%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background-color: #F7EFE2; /* white */
+  text-align: center;
+  display: block;
+  border-bottom: 2px solid #118BF3; /* blue */
+  border-right: 2px solid #118BF3; /* blue */
+}
+a.logo:hover,
+a.logo:active {
+  background-color: #C2C0C0; /* gray */
+  border-bottom: 2px solid #052642; /* dark blue */
+  border-right: 2px solid #052642; /* dark blue */
+}
+a.action {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px;
+  line-height: 41px;
+  color: #050403; /* black */
+  height: 45px;
+  width: 45%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background-color: #F7EFE2; /* white */
+  text-align: center;
+  display: block;
+  border-bottom: 2px solid #118BF3; /* blue */
+}
+a.action:hover,
+a.action:active {
+  background-color: #C2C0C0; /* gray */
+  border-bottom: 2px solid #052642; /* dark blue */
+}
+#hero { /* photo */
+  height: 90vh;
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: url("../images/background_final.png") no-repeat;
+  background-position: center center;
+  background-color: #050403; /* black */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #F7EFE2; /* white */
+}
+#sans { /* photo */
+  height: 90vh;
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background-color: #C2C0C0; /* gray */
+  color: #F7EFE2; /* white */
+}
+.foot {
+  height: 10vh;
+  width: 100%;
+  float:  left;
+  margin: 0;
+  padding: 10px 25vw 0 25vw;
+  background-color: #F7EFE2; /* white */
+  color: inherit; /* black */
+  border-top: 2px solid #118BF3; /* blue */
+
+}
+.data {
+  height: auto;
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background-color: inherit;
+  color: inherit;
+}
